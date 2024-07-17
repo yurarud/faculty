@@ -1,5 +1,6 @@
-package com.example.faculty;
+package com.example.faculty.repository;
 
+import com.example.faculty.model.DescriptionItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

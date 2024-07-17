@@ -1,5 +1,7 @@
-package com.example.faculty;
+package com.example.faculty.controller;
 
+import com.example.faculty.model.Page;
+import com.example.faculty.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,5 +1,9 @@
-package com.example.faculty;
+package com.example.faculty.service;
 
+import com.example.faculty.model.DescriptionItem;
+import com.example.faculty.model.Page;
+import com.example.faculty.repository.DescriptionItemRepository;
+import com.example.faculty.repository.PageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
